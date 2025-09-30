@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: visits-service-monitor
+  namespace: sre-lab
+  labels:
+    release: monitoring
+spec:
+  selector:
+    matchLabels:
+      app: visits-service
+  namespaceSelector:
+    matchNames:
+      - sre-lab
+  endpoints:
+    - port: web
+      path: /actuator/prometheus
+      interval: 15s
+      scheme: http
