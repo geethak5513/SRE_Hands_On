@@ -1520,3 +1520,188 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 clear
+git remote add origin git@github.com:geethak5513/SRE_Hands_On.git
+cd
+ll
+cd root
+cd /
+ll
+cd
+clear
+ll
+git add .
+git remote add origin git@github.com:geethak5513/SRE_Hands_On.git
+cd spring-petclinic-microservices/
+ll
+cd spring-petclinic-visits-service/
+ll
+cd ../..
+ll
+cd spring-petclinic-microservices/
+ll
+cd ~
+ll
+mkdir my-visits-service
+cp -r spring-petclinic-microservices/spring-petclinic-visits-service/* my-visits-service
+ll
+cd my-service/
+ll
+cd my-visits-service/
+ll
+cd ..
+ll
+cd my-visits-service/
+ll
+cd target
+ll
+cd ../../../
+ll
+cd 
+ll
+git rm -r --cached spring-petclinic-microservices
+git rm -r --cached spring-petclinic-microservices -f
+echo "spring-petclinic-microservices/" >> .gitignore
+git add .gitignore
+clear
+ll
+clear
+git add .
+git commit -m "Add project files excluding spring-petclinic-microservices"
+git branch -M main
+git remote add origin git@github.com:geethak5513/SRE_Hands_On.git
+git push -u origin main
+git status
+git fetch origin
+git branch -vv
+git pull --rebase origin main
+git push -u origin main
+ssh -T git@github.com
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/id_ed2551
+chmod 644 ~/.ssh/id_ed25519.pub
+[ -f ~/.ssh/config ] && chmod 600 ~/.ssh/config
+chown -R $(whoami):$(id -gn) ~/.ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+ssh-keygen -t ed25519 -C "your.email@example.com"
+ssh-keygen -t ed25519 -C "geethak5513@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git remote set-url origin https://github.com/geethak5513/SRE_Hands_On.git
+rit remote -v
+git remote -v
+git rm -r --cached -f spring-petclinic-microservices || true
+echo "spring-petclinic-microservices/" >> .gitignore
+git add .gitignore
+git commit -m "Exclude nested spring-petclinic-microservices directory" || tru
+git fetch origin
+git pull --rebase origin main
+git push -u origin main
+git credential-cache exit
+git config --global --unset credential.helper
+vi ~/.git-credentials
+git push -u origin main
+git remote set-url origin https://github.com/geethak5513/SRE_Hands_On.git
+git config --global credential.helper store
+git credential-cache exit
+git push -u origin main
+git credential-cache exit
+git config --global --unset credential.helper
+rm -f ~/.git-credentials
+git remote set-url origin https://github.com/geethak5513/SRE_Hands_On.git
+git remote -v
+git config --global credential.helper store
+git push -u origin main
+git checkout -b lab-backup
+git push -u origin lab-backup
+mkdir -p ~/safe-upload
+rsync -a --exclude '.git' --exclude 'target' --exclude '.m2' ~/my-visits-service/ ~/safe-upload/
+cd ~/safe-upload
+cat > .gitignore << 'EOF'
+# Maven
+target/
+.m2/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Logs & binaries
+*.log
+*.jar
+EOF
+
+it init
+git config user.name "geethak5513"
+git init
+git config user.name "geethak5513"
+git config useremail "geethak5513@gmail.com"
+git config user.email "geethak5513@gmail.com"
+git add .
+git commit -m "Clean snapshot (sources only, no secrets/build outputs)"
+git remote add origin https://github.com/geethak5513/SRE_Hands_On.git
+git checkout -b lab-backup
+git push -u origin lab-backup
+ll
+git fetch origin
+git push --force-with-lease origin lab-backup:main
+git push origin --delete lab-backu
+git push origin --delete lab-backup
+cat >> .gitignore << 'EOF'
+target/
+.m2/
+*.jar
+EOF
+
+git rm -r --cached target .m2 2>/dev/null || true
+git commit -m "chore: ignore build outputs and local caches"
+git push
+git grep -n "github_pat_" || true
+git ls-files | grep -E '^\.' || true
+clear
+cd
+ll
+clear
+mkdir -p ~/sre-lab-backup
+helm list -A > ~/sre-lab-backup/helm-releases.txt
+for ns in $(kubectl get ns --no-headers | awk '{print $1}'); do   for rel in $(helm list -n $ns --short); do     helm get all $rel -n $ns > ~/sre-lab-backup/${rel}-helm-details.txt;   done; done
+kubectl get all --all-namespaces -o yaml > ~/sre-lab-backup/k8s-all.yaml
+kubectl get configmaps,secrets --all-namespaces -o yaml > ~/sre-lab-backup/k8s-configs.yaml
+kubectl get cm -n monitoring -o yaml > ~/sre-lab-backup/monitoring-configmaps.yaml
+kubectl get all -n elasticsearch -o yaml > ~/sre-lab-backup/elk-elasticsearch.yaml
+kubectl get all -n kibana -o yaml > ~/sre-lab-backup/elk-kibana.yaml
+kubectl get all -n logstash -o yaml > ~/sre-lab-backup/elk-logstash.yaml
+tar czvf ~/sre-lab-full-backup-$(date +%Y%m%d-%H%M).tar.gz -C ~/sre-lab-backup .
+cd ~/sre-lab-backup
+clear
+git init
+git add .
+git commit -m "Full SRE lab backup (Helm, K8s, ELK, Prometheus, Grafana)"
+git branch -M infra-backup
+git remote add origin https://github.com/geethak5513/SRE_Hands_On.g
+git push -u origin infra-backup
+git remote add origin https://github.com/geethak5513/SRE_Hands_On.git
+git push -u origin infra-backup
+git remote add origin https://github.com/geethak5513/SRE_Hands_On.git
+git remote -v
+git remote set-url origin https://github.com/geethak5513/SRE_Hands_On.git
+git remote -v
+git status
+git push -u origin infra-backup
+git remove -v
+git remote -v
+git push --force-with-lease origin infra-backup:main
+git fetch origin
+cd ~/sre-lab-backup
+git fetch origin
+git remove -v
+git remote -v
+git push --force-with-lease origin infra-backup:main

@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q!
+|2,0,1759204786,,"q!"
 :wq!
 |2,0,1754920885,,"wq!"
-:q!
-|2,0,1754570598,,"q!"
 :Q!
 |2,0,1753178248,,"Q!"
 
@@ -56,14 +56,14 @@
 |3,0,9,1,1,0,1754909402,"  initial_master_nodes: \"\""
 
 # File marks:
-'0  24  15  ~/elasticsearch-minimal.yaml
-|4,48,24,15,1754920885,"~/elasticsearch-minimal.yaml"
-'1  25  15  ~/elasticsearch-minimal.yaml
-|4,49,25,15,1754920510,"~/elasticsearch-minimal.yaml"
+'0  1  0  ~/.git-credentials
+|4,48,1,0,1759204786,"~/.git-credentials"
+'1  24  15  ~/elasticsearch-minimal.yaml
+|4,49,24,15,1754920885,"~/elasticsearch-minimal.yaml"
 '2  25  15  ~/elasticsearch-minimal.yaml
 |4,50,25,15,1754920510,"~/elasticsearch-minimal.yaml"
-'3  26  25  ~/elasticsearch-minimal.yaml
-|4,51,26,25,1754920041,"~/elasticsearch-minimal.yaml"
+'3  25  15  ~/elasticsearch-minimal.yaml
+|4,51,25,15,1754920510,"~/elasticsearch-minimal.yaml"
 '4  26  25  ~/elasticsearch-minimal.yaml
 |4,52,26,25,1754920041,"~/elasticsearch-minimal.yaml"
 '5  26  25  ~/elasticsearch-minimal.yaml
@@ -71,21 +71,33 @@
 '6  26  25  ~/elasticsearch-minimal.yaml
 |4,54,26,25,1754920041,"~/elasticsearch-minimal.yaml"
 '7  26  25  ~/elasticsearch-minimal.yaml
-|4,55,26,25,1754913888,"~/elasticsearch-minimal.yaml"
+|4,55,26,25,1754920041,"~/elasticsearch-minimal.yaml"
 '8  26  25  ~/elasticsearch-minimal.yaml
 |4,56,26,25,1754913888,"~/elasticsearch-minimal.yaml"
 '9  26  25  ~/elasticsearch-minimal.yaml
 |4,57,26,25,1754913888,"~/elasticsearch-minimal.yaml"
 
 # Jumplist (newest first):
+-'  1  0  ~/.git-credentials
+|4,39,1,0,1759204786,"~/.git-credentials"
 -'  24  15  ~/elasticsearch-minimal.yaml
 |4,39,24,15,1754920885,"~/elasticsearch-minimal.yaml"
+-'  24  15  ~/elasticsearch-minimal.yaml
+|4,39,24,15,1754920885,"~/elasticsearch-minimal.yaml"
+-'  1  0  ~/elasticsearch-minimal.yaml
+|4,39,1,0,1754920879,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/elasticsearch-minimal.yaml
 |4,39,1,0,1754920879,"~/elasticsearch-minimal.yaml"
 -'  25  15  ~/elasticsearch-minimal.yaml
 |4,39,25,15,1754920510,"~/elasticsearch-minimal.yaml"
 -'  25  15  ~/elasticsearch-minimal.yaml
 |4,39,25,15,1754920510,"~/elasticsearch-minimal.yaml"
+-'  25  15  ~/elasticsearch-minimal.yaml
+|4,39,25,15,1754920510,"~/elasticsearch-minimal.yaml"
+-'  25  15  ~/elasticsearch-minimal.yaml
+|4,39,25,15,1754920510,"~/elasticsearch-minimal.yaml"
+-'  1  0  ~/elasticsearch-minimal.yaml
+|4,39,1,0,1754920499,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/elasticsearch-minimal.yaml
 |4,39,1,0,1754920499,"~/elasticsearch-minimal.yaml"
 -'  26  25  ~/elasticsearch-minimal.yaml
@@ -94,10 +106,22 @@
 |4,39,26,25,1754920041,"~/elasticsearch-minimal.yaml"
 -'  26  25  ~/elasticsearch-minimal.yaml
 |4,39,26,25,1754920041,"~/elasticsearch-minimal.yaml"
+-'  26  25  ~/elasticsearch-minimal.yaml
+|4,39,26,25,1754920041,"~/elasticsearch-minimal.yaml"
+-'  26  25  ~/elasticsearch-minimal.yaml
+|4,39,26,25,1754920041,"~/elasticsearch-minimal.yaml"
+-'  26  25  ~/elasticsearch-minimal.yaml
+|4,39,26,25,1754920041,"~/elasticsearch-minimal.yaml"
+-'  1  0  ~/elasticsearch-minimal.yaml
+|4,39,1,0,1754920034,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/elasticsearch-minimal.yaml
 |4,39,1,0,1754920034,"~/elasticsearch-minimal.yaml"
 -'  26  25  ~/elasticsearch-minimal.yaml
 |4,39,26,25,1754913888,"~/elasticsearch-minimal.yaml"
+-'  26  25  ~/elasticsearch-minimal.yaml
+|4,39,26,25,1754913888,"~/elasticsearch-minimal.yaml"
+-'  1  0  ~/elasticsearch-minimal.yaml
+|4,39,1,0,1754913876,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/elasticsearch-minimal.yaml
 |4,39,1,0,1754913876,"~/elasticsearch-minimal.yaml"
 -'  28  15  ~/elasticsearch-minimal.yaml
@@ -110,10 +134,26 @@
 |4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
 -'  28  15  ~/elasticsearch-minimal.yaml
 |4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
+-'  28  15  ~/elasticsearch-minimal.yaml
+|4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
+-'  28  15  ~/elasticsearch-minimal.yaml
+|4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
+-'  28  15  ~/elasticsearch-minimal.yaml
+|4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
+-'  28  15  ~/elasticsearch-minimal.yaml
+|4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
+-'  28  15  ~/elasticsearch-minimal.yaml
+|4,39,28,15,1754913053,"~/elasticsearch-minimal.yaml"
+-'  1  0  ~/elasticsearch-minimal.yaml
+|4,39,1,0,1754913039,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/elasticsearch-minimal.yaml
 |4,39,1,0,1754913039,"~/elasticsearch-minimal.yaml"
 -'  28  15  ~/elasticsearch-minimal.yaml
 |4,39,28,15,1754912668,"~/elasticsearch-minimal.yaml"
+-'  28  15  ~/elasticsearch-minimal.yaml
+|4,39,28,15,1754912668,"~/elasticsearch-minimal.yaml"
+-'  1  0  ~/elasticsearch-minimal.yaml
+|4,39,1,0,1754912658,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/elasticsearch-minimal.yaml
 |4,39,1,0,1754912658,"~/elasticsearch-minimal.yaml"
 -'  1  0  ~/current-values.yaml
@@ -238,48 +278,12 @@
 |4,39,1,0,1754909413,"~/current-values.yaml"
 -'  1  0  ~/current-values.yaml
 |4,39,1,0,1754909413,"~/current-values.yaml"
--'  1  0  ~/current-values.yaml
-|4,39,1,0,1754909413,"~/current-values.yaml"
--'  1  0  ~/current-values.yaml
-|4,39,1,0,1754909413,"~/current-values.yaml"
--'  1  0  ~/current-values.yaml
-|4,39,1,0,1754909413,"~/current-values.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
--'  16  2  ~/memory-limit.yaml
-|4,39,16,2,1754570613,"~/memory-limit.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git-credentials
+	*	1759204785	0
+	"	1	0
 
 > ~/elasticsearch-minimal.yaml
 	*	1754920883	0
