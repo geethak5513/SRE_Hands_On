@@ -1,0 +1,3 @@
+NAME       	NAMESPACE	REVISION	UPDATED                                	STATUS  	CHART                        	APP VERSION
+monitoring 	default  	2       	2025-08-01 09:43:14.308450963 +0000 UTC	deployed	kube-prometheus-stack-75.12.0	v0.83.0    
+my-postgres	sre-lab  	1       	2025-07-22 06:40:06.139730733 +0000 UTC	deployed	postgresql-16.7.21           	17.5.0     
